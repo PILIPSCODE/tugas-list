@@ -3,32 +3,25 @@ Content-Type: application/json
 
 
 {
-    "email":"kucing@gmail.com",
-    "password":"Kucing123."
+    "email":"pilipus@gmail.com",
+    "password":"Pilipus123."
     
 }
 ###
 
-GET http://localhost:3001/api/dataklean/verifey
-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjMwYTU3NzUxZmQ4NDA3YzVkNDAyMjciLCJpYXQiOjE2NDczNTUyOTcsImV4cCI6MTY0Nzk2MDA5N30.7pLCa9AeoHDY13reVhjp92BAGYK8WtTx1XXuHnlt2Ks
+GET http://localhost:3001/Listuser
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mjg4NTIxYmM5MWU2MmFlNzkzZDQwYmQiLCJpYXQiOjE2NTMyMDQ2ODMsImV4cCI6MTY1MzgwOTQ4M30.zDoWybV6h4I7RRr6vkCDFh71dR1Ie9ev_TLXqCjQ3CU
 ###
 
-GET http://localhost:3001/api/dataklean/profile
-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjMxNzE3YjNiNDYzMzkzZmIwNzJjYmIiLCJpYXQiOjE2NDc0MTEwNzAsImV4cCI6MTY0ODAxNTg3MH0.SOHtqzG1CYBnfnoO3ozT4vgLA3_4pvfmRoGJ9CbVRaY
+GET http://localhost:3001/profile
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mjg4NTIxYmM5MWU2MmFlNzkzZDQwYmQiLCJpYXQiOjE2NTMyMDQ2ODMsImV4cCI6MTY1MzgwOTQ4M30.zDoWybV6h4I7RRr6vkCDFh71dR1Ie9ev_TLXqCjQ3CU
 ###
 
-DELETE  http://localhost:3001/api/dataklean/profile
-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjMwYTU3NzUxZmQ4NDA3YzVkNDAyMjciLCJpYXQiOjE2NDczNTUyOTcsImV4cCI6MTY0Nzk2MDA5N30.7pLCa9AeoHDY13reVhjp92BAGYK8WtTx1XXuHnlt2Ks
+DELETE http://localhost:3001/profile
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mjg4NTIxYmM5MWU2MmFlNzkzZDQwYmQiLCJpYXQiOjE2NTMyMDQ2ODMsImV4cCI6MTY1MzgwOTQ4M30.zDoWybV6h4I7RRr6vkCDFh71dR1Ie9ev_TLXqCjQ3CU
 ###
-POST  http://localhost:3001/api/dataklean/tokenisValid
-Content-Type: application/json
-
-
-{
-    "email":"kucing@gmail.com",
-    "password":"Kucing123."
-    
-}
+POST  http://localhost:3001/tokenisValid
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mjg4NTIxYmM5MWU2MmFlNzkzZDQwYmQiLCJpYXQiOjE2NTMyMDQ2ODMsImV4cCI6MTY1MzgwOTQ4M30.zDoWybV6h4I7RRr6vkCDFh71dR1Ie9ev_TLXqCjQ3CU
 ###
 
 GET http://localhost:3001/api/dataklean
